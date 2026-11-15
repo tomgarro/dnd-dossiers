@@ -404,6 +404,10 @@ Hasta 10 criaturas caminan sobre líquidos.
 Muro de viento de 50 ft: **3d8 bludgeoning** (STR save para la mitad). Frena proyectiles y gases.
 }}
 
+{{imageMaskEdge2,--offset:100px,-rotation:0
+  ![Nabi en medio de una tormenta de arena con tres Wild Shapes](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/nabi-cap3.jpg){width:620px,opacity:.85,margin-bottom:23px,margin-left:98px}
+}}
+
 {{pageNumber,auto}}
 
 \page
