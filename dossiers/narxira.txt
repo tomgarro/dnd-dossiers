@@ -96,10 +96,6 @@ Una sola por ronda; la recuperás al inicio de tu turno — *PHB 190*.
 {{watercolor2,top:20px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}
 
 {{imageMaskEdge2,--offset:100px,-rotation:0
-  ![Narxira saltando fuera de las sombras, con fuego en los puños y el aliento](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/narxira-p2.jpg){width:100%,opacity:.8,margin-top:20px,margin-bottom:-451px}
-}}
-
-{{imageMaskEdge2,--offset:100px,-rotation:0
   ![Narxira saltando fuera de las sombras, con fuego en los puños y el aliento](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/narxira-p2.jpg){width:734px,opacity:.85,margin-bottom:9px,margin-left:41px}
 }}
 

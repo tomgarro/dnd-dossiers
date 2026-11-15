@@ -244,10 +244,6 @@ Hablás y entendés a las bestias.
 CON save o **2d8 thunder** y los empujás 10 ft; la mitad si salvan. Se oye a 300 ft.
 }}
 
-{{imageMaskEdge2,--offset:100px,-rotation:0
-  ![Nabi en medio de una tormenta de arena con tres Wild Shapes](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/nabi-cap3.jpg){width:100%,opacity:.8,margin-top:20px,margin-bottom:-285px}
-}}
-
 {{pageNumber,auto}}
 
 \page

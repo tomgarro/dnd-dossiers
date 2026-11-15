@@ -91,10 +91,6 @@ Una sola por ronda; la recuperás al inicio de tu turno — *PHB 190*.
 {{watercolor2,top:20px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}
 
 {{imageMaskEdge2,--offset:100px,-rotation:0
-  ![Ront en Rage entre los pinos, de noche](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/ront-p2.jpg){width:100%,opacity:.8,margin-top:20px,margin-bottom:-451px}
-}}
-
-{{imageMaskEdge2,--offset:100px,-rotation:0
   ![Ront en Rage entre los pinos, de noche](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/ront-p2.jpg){width:816px,opacity:.85,margin-bottom:19px}
 }}
 
@@ -183,10 +179,6 @@ Soltar un arma es gratis. Sacar otra es tu *object interaction* gratis del turno
 **EXHAUSTION**  
 *PHB 291 | Los niveles se acumulan*  
 1: disadvantage en ability checks. 2: speed a la mitad. 3: disadvantage en ataques y saves. 4: HP máximo a la mitad. 5: speed 0. 6: muerte. Un long rest (con comida y agua) saca **1 nivel**.
-}}
-
-{{imageMaskEdge2,--offset:100px,-rotation:0
-  ![Ront de espaldas frente a una horda](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/ront-cap3.jpg){width:100%,opacity:.8,margin-top:20px,margin-bottom:-285px}
 }}
 
 {{pageNumber,auto}}
