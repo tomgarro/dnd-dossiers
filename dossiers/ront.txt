@@ -90,7 +90,7 @@ Una sola por ronda; la recuperás al inicio de tu turno — *PHB 190*.
 
 {{watercolor2,top:20px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}
 
-{{imageMaskEdge2,--offset:100px,-rotation:0
+{{imageMaskEdge2,--offset:-23px,-rotation:0
   ![Ront en Rage entre los pinos, de noche](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/ront-p2.jpg){width:816px,opacity:.85,margin-bottom:19px}
 }}
 
@@ -125,7 +125,7 @@ Una sola por ronda; la recuperás al inicio de tu turno — *PHB 190*.
 ### Feat (nivel 4)
 **[COMPLETAR: nombre del feat y qué hace]**
 
-{{imageMaskEdge2,--offset:100px,-rotation:0
+{{imageMaskEdge2,--offset:-148px,-rotation:0
   ![Ront de espaldas frente a una horda](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/ront-cap3.jpg){width:816px,opacity:.85,margin-bottom:96px}
 }}
 

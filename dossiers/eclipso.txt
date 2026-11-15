@@ -92,7 +92,7 @@ Una sola por ronda; la recuperás al inicio de tu turno — *PHB 190*.
 
 {{watercolor2,top:20px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}
 
-{{imageMaskEdge2,--offset:100px,-rotation:0
+{{imageMaskEdge2,--offset:-35px,-rotation:0
   ![Eclipso agazapado en un techo con el arco tensado](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/eclipso-p2.jpg){width:816px,opacity:.85,margin-bottom:7px}
 }}
 
@@ -171,7 +171,7 @@ Con dos armas *light* en cada mano, la segunda ataca como bonus action, sin suma
 10 + modificadores de Wisdom (Perception). El DM la usa para saber si un enemigo nota tu escondite sin tirar dados.
 }}
 
-{{imageMaskEdge2,--offset:100px,-rotation:0
+{{imageMaskEdge2,--offset:-211px,-rotation:0
   ![Eclipso detrás de un guardia que no lo ve](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/eclipso-cap3.jpg){width:816px,opacity:.85,margin-bottom:33px}
 }}
 
