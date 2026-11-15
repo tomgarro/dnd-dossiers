@@ -96,8 +96,8 @@ Una sola por ronda; la recuperás al inicio de tu turno — *PHB 190*.
 
 {{watercolor2,top:20px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}
 
-{{imageMaskEdge2,--offset:-143px,-rotation:0
-  ![Nabi haciendo brotar vida en el desierto muerto, de noche](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/nabi-p2.jpg){width:650px,opacity:.85,margin-bottom:11px,margin-left:83px}
+{{position:absolute,left:0,top:605px,width:816px,height:445px,margin:0,padding:0
+![Nabi haciendo brotar vida en el desierto muerto, de noche](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/nabi-p2.webp){width:816px,height:445px,display:block,margin:0}
 }}
 
 {{pageNumber,auto}}
@@ -404,8 +404,8 @@ Hasta 10 criaturas caminan sobre líquidos.
 Muro de viento de 50 ft: **3d8 bludgeoning** (STR save para la mitad). Frena proyectiles y gases.
 }}
 
-{{imageMaskEdge2,--offset:-181px,-rotation:0
-  ![Nabi en medio de una tormenta de arena con tres Wild Shapes](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/nabi-cap3.jpg){width:620px,opacity:.85,margin-bottom:23px,margin-left:98px}
+{{position:absolute,left:0,top:643px,width:816px,height:407px,margin:0,padding:0
+![Nabi en medio de una tormenta de arena con tres Wild Shapes](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/nabi-cap3.webp){width:816px,height:407px,display:block,margin:0}
 }}
 
 {{pageNumber,auto}}
@@ -436,8 +436,8 @@ El hechizo básico para esto es Revivify (nv 3). El personaje fallecido tira el 
 
 {{watercolor5,top:50px,rotation:90%,left:-150px,width:1000px,background-color:#BBAD82,opacity:60%}}
 
-{{imageMaskEdge2,--offset:-28px,-rotation:0
-  ![Nabi sobre una duna bajo la luna](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/nabi-cierre.jpg){width:816px,opacity:.85,margin-bottom:14px}
+{{position:absolute,left:0,top:490px,width:816px,height:548px,margin:0,padding:0
+![Nabi sobre una duna bajo la luna](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/nabi-cierre.webp){width:816px,height:548px,display:block,margin:0}
 }}
 
 {{pageNumber,auto}}

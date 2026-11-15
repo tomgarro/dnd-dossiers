@@ -90,8 +90,8 @@ Una sola por ronda; la recuperás al inicio de tu turno — *PHB 190*.
 
 {{watercolor2,top:20px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}
 
-{{imageMaskEdge2,--offset:-23px,-rotation:0
-  ![Ront en Rage entre los pinos, de noche](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/ront-p2.jpg){width:816px,opacity:.85,margin-bottom:19px}
+{{position:absolute,left:0,top:485px,width:816px,height:548px,margin:0,padding:0
+![Ront en Rage entre los pinos, de noche](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/ront-p2.webp){width:816px,height:548px,display:block,margin:0}
 }}
 
 {{pageNumber,auto}}
@@ -125,8 +125,8 @@ Una sola por ronda; la recuperás al inicio de tu turno — *PHB 190*.
 ### Feat (nivel 4)
 **[COMPLETAR: nombre del feat y qué hace]**
 
-{{imageMaskEdge2,--offset:-148px,-rotation:0
-  ![Ront de espaldas frente a una horda](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/ront-cap3.jpg){width:816px,opacity:.85,margin-bottom:96px}
+{{position:absolute,left:0,top:610px,width:816px,height:346px,margin:0,padding:0
+![Ront de espaldas frente a una horda](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/ront-cap3.webp){width:816px,height:346px,display:block,margin:0}
 }}
 
 {{pageNumber,auto}}
@@ -209,8 +209,8 @@ El hechizo básico para esto es Revivify (nv 3). El personaje fallecido tira el 
 
 {{watercolor5,top:50px,rotation:90%,left:-150px,width:1000px,background-color:#BBAD82,opacity:60%}}
 
-{{imageMaskEdge2,--offset:-28px,-rotation:0
-  ![Ront en una colina al atardecer, apoyado en su espada](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/ront-cierre.jpg){width:816px,opacity:.85,margin-bottom:14px}
+{{position:absolute,left:0,top:490px,width:816px,height:548px,margin:0,padding:0
+![Ront en una colina al atardecer, apoyado en su espada](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/ront-cierre.webp){width:816px,height:548px,display:block,margin:0}
 }}
 
 {{pageNumber,auto}}

@@ -92,8 +92,8 @@ Una sola por ronda; la recuperás al inicio de tu turno — *PHB 190*.
 
 {{watercolor2,top:20px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}
 
-{{imageMaskEdge2,--offset:-35px,-rotation:0
-  ![Eclipso agazapado en un techo con el arco tensado](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/eclipso-p2.jpg){width:816px,opacity:.85,margin-bottom:7px}
+{{position:absolute,left:0,top:497px,width:816px,height:548px,margin:0,padding:0
+![Eclipso agazapado en un techo con el arco tensado](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/eclipso-p2.webp){width:816px,height:548px,display:block,margin:0}
 }}
 
 {{pageNumber,auto}}
@@ -171,8 +171,8 @@ Con dos armas *light* en cada mano, la segunda ataca como bonus action, sin suma
 10 + modificadores de Wisdom (Perception). El DM la usa para saber si un enemigo nota tu escondite sin tirar dados.
 }}
 
-{{imageMaskEdge2,--offset:-211px,-rotation:0
-  ![Eclipso detrás de un guardia que no lo ve](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/eclipso-cap3.jpg){width:816px,opacity:.85,margin-bottom:33px}
+{{position:absolute,left:0,top:673px,width:816px,height:346px,margin:0,padding:0
+![Eclipso detrás de un guardia que no lo ve](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/eclipso-cap3.webp){width:816px,height:346px,display:block,margin:0}
 }}
 
 {{pageNumber,auto}}
@@ -203,8 +203,8 @@ El hechizo básico para esto es Revivify (nv 3). El personaje fallecido tira el 
 
 {{watercolor5,top:50px,rotation:90%,left:-150px,width:1000px,background-color:#BBAD82,opacity:60%}}
 
-{{imageMaskEdge2,--offset:-28px,-rotation:0
-  ![Eclipso vigilando la ciudad desde un tejado](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/eclipso-cierre.jpg){width:816px,opacity:.85,margin-bottom:14px}
+{{position:absolute,left:0,top:490px,width:816px,height:548px,margin:0,padding:0
+![Eclipso vigilando la ciudad desde un tejado](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/eclipso-cierre.webp){width:816px,height:548px,display:block,margin:0}
 }}
 
 {{pageNumber,auto}}

@@ -95,8 +95,8 @@ Una sola por ronda; la recuperás al inicio de tu turno — *PHB 190*.
 
 {{watercolor2,top:20px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}
 
-{{imageMaskEdge2,--offset:-88px,-rotation:0
-  ![Narxira saltando fuera de las sombras, con fuego en los puños y el aliento](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/narxira-p2.jpg){width:734px,opacity:.85,margin-bottom:9px,margin-left:41px}
+{{position:absolute,left:0,top:550px,width:816px,height:500px,margin:0,padding:0
+![Narxira saltando fuera de las sombras, con fuego en los puños y el aliento](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/narxira-p2.webp){width:816px,height:500px,display:block,margin:0}
 }}
 
 {{pageNumber,auto}}
@@ -167,8 +167,8 @@ Creás un sonido o la imagen de un objeto en un cubo de 5 ft. Sirve para distrae
 - **2 ki**: Shadow Arts.
 - **Mejor uso**: Stunning Strike sobre el enemigo más peligroso. Si sobra ki, Flurry of Blows.
 
-{{imageMaskEdge2,--offset:-128px,-rotation:0
-  ![Narxira avanzando pegada a la pared mientras la oscuridad cubre el pasillo](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/narxira-cap3.jpg){width:816px,opacity:.85,margin-bottom:116px}
+{{position:absolute,left:0,top:590px,width:816px,height:346px,margin:0,padding:0
+![Narxira avanzando pegada a la pared mientras la oscuridad cubre el pasillo](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/narxira-cap3.webp){width:816px,height:346px,display:block,margin:0}
 }}
 
 {{pageNumber,auto}}
@@ -199,8 +199,8 @@ El hechizo básico para esto es Revivify (nv 3). El personaje fallecido tira el 
 
 {{watercolor5,top:50px,rotation:90%,left:-150px,width:1000px,background-color:#BBAD82,opacity:60%}}
 
-{{imageMaskEdge2,--offset:-28px,-rotation:0
-  ![Narxira sobre las ruinas de un arco, mirando el valle entre la niebla](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/narxira-cierre.jpg){width:816px,opacity:.85,margin-bottom:14px}
+{{position:absolute,left:0,top:490px,width:816px,height:548px,margin:0,padding:0
+![Narxira sobre las ruinas de un arco, mirando el valle entre la niebla](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/narxira-cierre.webp){width:816px,height:548px,display:block,margin:0}
 }}
 
 {{pageNumber,auto}}
