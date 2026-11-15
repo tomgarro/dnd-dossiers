@@ -1,0 +1,363 @@
+<style>
+.page { column-count: 1; }
+.page .spells-grid { column-count: 2; column-gap: 36px; display: block; margin: 6px 0; }
+.page .spells-grid p { break-inside: avoid; margin-bottom: 9px; }
+</style>
+
+{{watercolor3,top:720px,rotation:90%,left:154px,width:700px,background-color:#BBAD82,opacity:80%}}
+
+
+:::
+<div style="text-align: center">
+
+# DIETER ULGER
+
+:
+##### Paladin · Level **5** · Combat and Mechanics Dossier
+*Remember. Punish. Repeat.*
+::
+</div>
+
+## CHAPTER 1 — ACTION ECONOMY
+
+### Actions
+
+- **Attack** (con *Extra Attack*, atacás dos veces por turno) — *PHB 85*
+  - **Greatsword**: +7 to hit, **2d6+4 slashing**. Heavy, two-handed.
+  - **Javelin**: +7 to hit, **1d6+4 piercing**. Thrown, range 30/120 ft.
+- **Divine Sense** — *PHB 84*: gastás la action y detectás celestials, fiends, undead, y lugares consagrados o profanados en 60 ft. Usos por day: 1 + CHA mod.
+- **Lay on Hands** — *PHB 84*: tocás a una creature y curás desde tu pool (**25 HP** total), o gastás 5 HP para curar disease/poison.
+- **Abjure Enemy** (Channel Divinity) — *PHB 88*: Frightens y frena a un enemigo en 60 ft. (Ver CHAPTER 2 para la regla completa).
+- Castear spell con Casting Time de 1 action. Ver **CHAPTER 3**.
+
+### Combat Basic Actions (PHB 192-193)
+
+{{spells-grid
+**DASH**  
+*Action | Movement*  
+Ganás movimiento extra para este turno igual a tu speed actual (después de aplicar modificadores). Con tu speed base de 30 ft, si usás Dash podés moverte hasta 60 ft en total en ese turno.
+
+**DISENGAGE**  
+*Action | Defense / Movement*  
+Si tomás esta action, tu movimiento no provoca *attacks of opportunity* por el resto de tu turno. Es ideal para reposicionarte o escapar de múltiples enemigos en cuerpo a cuerpo sin recibir daño gratis.
+
+**DODGE**  
+*Action | Defense*  
+Te enfocás 100% en esquivar. Hasta el inicio de tu próximo turno, cualquier attack roll en tu contra tiene **disadvantage** (siempre y cuando puedas ver al atacante), y hacés todos tus DEX saving throws con **advantage**. Perdés este beneficio si quedás *incapacitated* o si tu speed baja a 0.
+
+**HELP**  
+*Action | Utility / Combat*  
+Ayudás a una criatura. Si la asistís en una tarea, le das **advantage** en su próximo ability check. En combate, podés distraer a un enemigo que esté a 5 ft de vos: el primer attack roll de un aliado contra ese enemigo tiene **advantage** (siempre que el ataque ocurra antes de tu próximo turno).
+
+**HIDE**  
+*Action | Stealth*  
+Hacés un check de Dexterity (Stealth) para intentar esconderte. Para que funcione, tenés que estar fuertemente oscurecido (*heavily obscured*) o fuera de la línea de visión directa de los enemigos, y permanecer en silencio.
+
+**READY**  
+*Action ➔ Reaction | Tactical*  
+Preparás una acción para detonarla más tarde en la ronda. Definís un **trigger** perceptible (ej: "si el orco cruza la puerta") y qué action vas a tomar (ej: "le pego con la espada"). Cuando ocurre el trigger, gastás tu **reaction** para ejecutarla. Si preparás un hechizo, debés castearlo en tu turno y retener la energía, lo que requiere *concentration*.
+
+**SEARCH**  
+*Action | Perception*  
+Dedicás toda tu atención a buscar o encontrar algo oculto en medio del caos del combate. Dependiendo de lo que intentes buscar, el DM te va a pedir que tires un check de Wisdom (Perception) o de Intelligence (Investigation).
+}}
+
+{{pageNumber 1}}
+
+\page
+
+### Bonus Actions
+
+- **Vow of Enmity** (Channel Divinity) — *PHB 88*: Advantage contra un enemigo en 10 ft. (Ver CHAPTER 2 para la regla completa).
+- **Misty Step** (Oath Spell) — *PHB 260*: teletransportás 30 ft a un espacio visible.
+- Pre-casteo de Smites: *Searing, Thunderous, Wrathful, Branding*. (Requieren concentration, se disparan con tu próximo hit de melee).
+- **Divine Favor** — *PHB 234*: weapon attacks suman **+1d4 radiant**.
+- **Hunter's Mark** (Oath Spell) — *PHB 251*: marcas a un enemigo para sumar daño.
+
+### Reactions
+
+Actualmente **no tenés ninguna reaction habilitada** por class features. La regla general de **attacks of opportunity** sigue en pie cuando un enemigo escapa de tu rango de cuerpo a cuerpo — *PHB 195*.
+
+{{descriptive
+#### Gauntlet of Lightning
+No es un arma aparte. Es un potenciador dentro de tu golpe de melee.
+
+- **Use**: mientras esté cargado, tu **primer hit de melee que conecte** suma **+1d6 lightning damage** y se descarga.
+- **Recharge**: al inicio de cada uno de tus turns, tirá **1d6**. Con **5 o 6**, se recarga (una sola vez por turn).
+- **Fragility**: si sacás un **critical hit** estando cargado, absorbe el exceso. Aguanta **3 critical hits** en total — al **tercero**, se destruye.
+}}
+
+{{descriptive
+#### Divine Smite
+*PHB 85* — No consume action. Es un rider: cuando pegás con melee weapon attack, en el hit gastás un spell slot. **Daño:** 2d8 radiant con slot de 1st level, +1d8 por cada nivel arriba de 1st (tope 5d8). Si el target es **undead** o **fiend**, sumás +1d8 extra.
+}}
+
+{{watercolor2,top:20px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}
+
+{{position:absolute,left:0,top:500px,width:816px,height:548px,margin:0,padding:0
+![Dieter con la greatsword cargada de rayos y la mano esquelética brillando](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/dieter-p2.webp){width:816px,height:548px,display:block,margin:0}
+}}
+
+{{pageNumber,auto}}
+
+\page
+
+## CHAPTER 2 — FEATURES & EQUIPMENT
+{{watercolor8,top:500px,left:300px,width:500px,background-color:#BBAD82,opacity:60%}}
+### Racial Traits (Humano)
+*PHB 29* — Reglas básicas a tener en cuenta en exploración y combate:
+- **Speed:** Tu velocidad base para moverte es de **30 ft**.
+- **Size:** Sos de tamaño Medium. Ocupás un espacio de 5x5 ft.
+
+### Paladin Features
+- **Fighting Style: Great Weapon Fighting** — *PHB 85*. Cuando tirás damage de un arma a dos manos, re-tirás los resultados de **1 o 2**, una vez por dado. Te quedás de forma obligatoria con el segundo resultado, incluso si es otro 1 o 2.
+- **Divine Health** — *PHB 85*. Sos **immune a disease**, sin excepciones mágicas ni mundanas.
+- **Extra Attack** — *PHB 85*. Atacás **dos veces** en lugar de una cuando usás la Attack action en tu turno.
+- **Channel Divinity** — *PHB 86*. Tenés **1 uso total** que podés gastar en Abjure Enemy o Vow of Enmity. Lo recuperás tras un short o long rest.
+
+### Oath of Vengeance
+*PHB 87-88* — Juraste castigar a los culpables por cualquier medio.
+- **Tenets of Vengeance:**
+  - **Fight the Greater Evil:** Ante la opción de combatir a los esbirros o al líder, vas por el daño mayor.
+  - **No Mercy for the Wicked:** Los enemigos ordinarios pueden ganarse tu piedad, pero los verdaderos villanos no.
+  - **By Any Means Necessary:** Tus escrúpulos no pueden interponerse en la exterminación del mal.
+  - **Restitution:** Si tus enemigos causan daño, es tu deber ayudar a quienes lo sufrieron.
+
+**Mecánicas del Juramento (Channel Divinity):**
+- **Abjure Enemy** (Action): Presentás tu holy symbol y elegís a una creature a 60 ft o menos que puedas ver. La creature hace un **Wisdom saving throw** (Fiends y undead tienen disadvantage).
+  - **Si falla:** Queda **Frightened** por 1 minuto o hasta que reciba daño. Mientras está asustada, su speed es 0 y no se beneficia de ningún bono a la velocidad.
+  - **Si salva:** Su speed se reduce a la **mitad** (*halved*) por 1 minuto o hasta que reciba daño.
+- **Vow of Enmity** (Bonus Action): Declarás tu voto de enemistad contra una creature que puedas ver a 10 ft o menos. Durante 1 minuto (o hasta que el target caiga a 0 HP o quede unconscious), tenés **advantage** en todos tus attack rolls contra esa criatura.
+
+**Aclaración:** El Pacto con Shar (CHAPTER 4) es homebrew narrativo y mecánico aparte. No reemplaza estas reglas oficiales de Paladín.
+
+### Inventory: Explorer's Pack
+*PHB 151* — Aparte de tus armas y armadura, tenés encima este paquete de supervivencia básica:
+- Backpack (mochila).
+- Bedroll (bolsa de dormir).
+- Mess kit (kit de cocina/comedor de campaña).
+- Tinderbox (yesquero para iniciar fuegos).
+- 10 torches (antorchas).
+- 10 days of rations (raciones secas de viaje).
+- Waterskin (odre de agua).
+- 50 feet of hempen rope (cuerda de cáñamo atada a un costado de la mochila).
+
+{{pageNumber,auto}}
+
+\page
+
+## CHAPTER 3 — SPELLCASTING
+
+### Level 1 Spells
+
+{{spells-grid
+**BANE** ✓ PREPARED (Oath)  
+*Action | 30 ft | 1 min (conc.)*  
+Hasta 3 creatures a elección hacen CHA save. Si fallan, deben restar **1d4** a todos sus attack rolls y saving throws durante la duración.
+
+**HUNTER'S MARK** ✓ PREPARED (Oath)  
+*Bonus Action | 90 ft | 1 hora (conc.)*  
+Marcás mágicamente a una criatura. Cada vez que le pegues con un weapon attack, sumás **+1d6** damage. Además, tenés advantage en checks de Perception y Survival para rastrearla.
+
+**BLESS**  
+*Action | 30 ft | 1 min (conc.)*  
+Bendecís hasta 3 creatures. Cada vez que tiren un attack roll o saving throw, pueden sumar **+1d4** al resultado.
+
+**COMMAND**  
+*Action | 60 ft | 1 round*  
+Emitís una orden de una sola palabra (Approach, Drop, Flee, Grovel, Halt). El target hace WIS save. Si falla, gasta su próximo turno obedeciendo la orden. Inútil en undead o si no comparten idioma.
+
+**COMPELLED DUEL**  
+*Bonus Action | 30 ft | 1 min (conc.)*  
+Forzás un duelo. WIS save. Si el target falla, tiene **disadvantage** para atacar a cualquier otro que no seas vos. Además, debe hacer otro WIS save si intenta alejarse a más de 30 ft de vos. El hechizo se rompe si atacás a otro enemigo o un aliado ataca a tu objetivo.
+
+**CURE WOUNDS**  
+*Action | Touch | Instant*  
+Tocás a una creature y le curás **1d8 + CHA modifier** de HP. No tiene efecto en undead ni en constructs.
+
+**DETECT EVIL AND GOOD**  
+*Action | Self | 10 min (conc.)*  
+Por la duración, sentís si hay aberrations, celestials, elementals, fey, fiends, o undead dentro de 30 ft. También sentís lugares sagrados o profanados en ese rango.
+
+**DETECT MAGIC**  
+*Action | Self | 10 min (conc.)*  
+Sentís la presencia de magia a 30 ft. Podés usar tu action para ver un aura tenue alrededor de criaturas/objetos mágicos y conocer a qué escuela de magia pertenecen.
+
+**DETECT POISON AND DISEASE**  
+*Action | Self | 10 min (conc.)*  
+Percibís la presencia y ubicación de venenos, criaturas venenosas y enfermedades a 30 ft. También podés identificar de qué tipo son.
+
+**DIVINE FAVOR**  
+*Bonus Action | Self | 1 min (conc.)*  
+Te rodea un aura de poder divino. Hasta que el spell termine, todos tus weapon attacks suman **+1d4 radiant** damage al impactar.
+
+**HEROISM**  
+*Action | Touch | 1 min (conc.)*  
+Infundís coraje. La criatura tocada se vuelve inmune a la condición **Frightened** y gana **Temporary HP** iguales a tu CHA modifier al inicio de cada uno de sus turnos.
+
+**PROTECTION FROM EVIL AND GOOD**  
+*Action | Touch | 10 min (conc.)*  
+Protegés a un target. Aberrations, celestials, elementals, fey, fiends, y undead tienen **disadvantage** al atacarlo. Además, el target es inmune a ser charmed, frightened o possessed por estas criaturas.
+
+**PURIFY FOOD AND DRINK**  
+*Action | 10 ft | Instant*  
+Toda la comida y bebida no mágica dentro de una esfera de 5 ft de radio se limpia de todo veneno o enfermedad, volviéndose segura para consumir.
+
+**SHIELD OF FAITH**  
+*Bonus Action | 60 ft | 10 min (conc.)*  
+Un campo reluciente rodea a una creature de tu elección (o a vos), otorgándole **+2 a la AC** por la duración del spell.
+
+**SEARING SMITE**  
+*Bonus Action | Self | 1 min (conc.)*  
+Tu arma arde en llamas blancas. Tu próximo hit de melee suma **1d6 fire** damage y prende fuego al target. Al inicio de sus turnos, el target hace CON save; si falla, recibe 1d6 fire damage. Si pasa, el fuego se apaga.
+
+**THUNDEROUS SMITE**  
+*Bonus Action | Self | 1 min (conc.)*  
+Tu arma resuena con un trueno. Tu próximo hit de melee suma **2d6 thunder** damage y el ataque es audible a 300 ft. El target debe hacer STR save o ser empujado 10 ft lejos de vos y caer **prone**.
+
+**WRATHFUL SMITE**  
+*Bonus Action | Self | 1 min (conc.)*  
+Tu arma genera miedo. Tu próximo hit de melee suma **1d6 psychic** damage. El target debe hacer WIS save; si falla, queda **Frightened** de vos hasta que el hechizo termine. Para sacarse el efecto, debe gastar su action en hacer un check de WIS exitoso contra tu Spell DC.
+}}
+
+{{pageNumber,auto}}
+
+\page
+
+### Level 2 Spells
+
+{{spells-grid
+**HOLD PERSON** ✓ PREPARED (Oath)  
+*Action | 60 ft | 1 min (conc.)*  
+Elegís a un Humanoid. Debe hacer un WIS save. Si falla, queda **Paralyzed** (los ataques cuerpo a cuerpo contra él son críticos automáticos). El target repite el saving throw al final de cada uno de sus turnos.
+
+**MISTY STEP** ✓ PREPARED (Oath)  
+*Bonus Action | Self | Instant*  
+Te rodea una neblina plateada y te teletransportás instantáneamente a un espacio libre que puedas ver, a una distancia máxima de **30 ft**.
+
+**AID**  
+*Action | 30 ft | 8 horas*  
+Elegís hasta 3 criaturas. Su Hit Point Maximum y sus Current Hit Points aumentan en **5 HP** durante las 8 horas. No requiere concentración.
+
+**BRANDING SMITE**  
+*Bonus Action | Self | 1 min (conc.)*  
+Tu arma destella. Tu próximo hit de melee suma **2d6 radiant** damage. El target empieza a emitir luz tenue en 5 ft; si era invisible, se vuelve visible, y no puede volver a esconderse mágicamente mientras dure el spell.
+
+**FIND STEED**  
+*10 min | 30 ft | Instant*  
+Invocás un spirit en forma de steed (warhorse, elk, etc) con Inteligencia 6. Tenés un vínculo telepático a 1 milla de distancia y en combate actúan como una unidad. Los hechizos que te targeteen a vos (ej: Shield of Faith) también pueden afectar al caballo.
+
+**LESSER RESTORATION**  
+*Action | Touch | Instant*  
+Canalizás curación pura. Podés eliminar una enfermedad (disease) o una de las siguientes conditions de la criatura que toques: **blinded, deafened, paralyzed, o poisoned**.
+
+**LOCATE OBJECT**  
+*Action | Self | 10 min (conc.)*  
+Percibís la dirección de un objeto específico o de una clase de objetos (ej: espadas, joyas) mientras esté a menos de 1000 ft. Puede ser bloqueado por plomo.
+
+**MAGIC WEAPON**  
+*Bonus Action | Touch | 1 hora (conc.)*  
+Tocás un arma no mágica. Hasta que termine el hechizo, el arma se vuelve un arma mágica y suma **+1** a todos sus attack rolls y damage rolls.
+
+**PROTECTION FROM POISON**  
+*Action | Touch | 1 hora*  
+Tocás a una criatura. Si está envenenada, neutralizás el veneno. Por la duración, el target tiene **advantage** en saving throws contra venenos y gana **resistance** al poison damage.
+
+**ZONE OF TRUTH**  
+*Action | 60 ft | 10 min*  
+Creás una zona esférica de 15 ft de radio. Cualquiera que entre o empiece su turno ahí hace CHA save; si falla, **no puede mentir deliberadamente**. Sabés quién falló y quién pasó el save. Un evasivo puede omitir respuestas, pero lo que diga debe ser verdad.
+}}
+
+{{watercolor5,top:50px,rotation:90%,left:-150px,width:1000px,background-color:#BBAD82,opacity:60%}}
+
+{{position:absolute,left:0,top:605px,width:816px,height:445px,margin:0,padding:0
+![Dieter invocando una espiral de energía con la mano esquelética](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/dieter-p5.webp){width:816px,height:445px,display:block,margin:0}
+}}
+
+{{pageNumber,auto}}
+
+\page
+
+## CHAPTER 4 — HOMEBREW
+
+### Resurrection Rules
+
+Para que la resurrección sea posible, el cuerpo tiene que ser reconocible y los órganos vitales intactos. Un cuerpo incinerado o desmembrado no sirve. La ventana de tiempo es extremadamente breve: **un minuto** desde la muerte. Pasado ese tiempo, el alma se pierde.
+
+El hechizo básico para esto es Revivify (nv 3). El personaje fallecido tira el **Saving Throw Final de Vida o Muerte**. El DC sube según las muertes previas:
+*   1ª muerte: **DC 5**
+*   2ª muerte: **DC 10**
+*   3ª muerte: **DC 15**
+*   4ª muerte: **DC 20**
+*   5ª muerte: **Definitiva.** No hay tirada.
+
+**El precio de la magia.** Ningún ritual sale gratis. Arrancar un alma cuesta energía. El caster sufre reducción **permanente** de HP máximo (1d6), no curable con descansos.
+*   **Revivify (nv 3):** caster recibe 1d6 completo de daño permanente.
+*   **Raise Dead / Reincarnate (nv 5):** caster recibe la mitad del 1d6 (redondeado arriba).
+*   **Resurrection (nv 7):** caster elige entre recibir la mitad del daño **o** darle advantage al Saving Throw Final del fallecido.
+*   **True Resurrection / Wish (nv 9):** caster recibe **ambos** beneficios.
+
+### The Pact with Shar
+
+*Regla exclusiva para Dieter.*
+
+Cuando Dieter está en la **mitad o menos** de su HP máximo, puede recurrir a Shar marcando fallos por adelantado en futuros **Death Saving Throws (DST)** a cambio de un beneficio inmediato. Si cae inconsciente, empieza sus tiradas de muerte con esos fallos ya acumulados hasta completar un long rest.
+
+*   **1 DST sacrificado** (elegís una opción):
+    *   Dash y Disengage gratis como bonus action, una sola vez.
+    *   +5 a un d20 test que hayas fallado recientemente.
+    *   Repetir un attack roll fallado.
+*   **2 DST sacrificados:** el próximo hit de melee que conecte hace **daño máximo** en todos sus dados.
+*   **3 DST sacrificados:** ganás una **Attack o Magic action adicional**, + recuperás un spell slot gastado (nivel 1 a 5).
+
+### The Corruption
+
+Cada DST sacrificado genera **Puntos de Corrupción**. El DM tira **2d20** en secreto y se queda con el mayor para establecer el umbral de corrupción oculto. El umbral se divide en tercios (leve, media, grave).
+
+Cuando Shar intenta imponerse narrativamente, Dieter tira un **Wisdom saving throw**:
+*   Corrupción leve: **DC 10**
+*   Corrupción media: **DC 15**
+*   Corrupción grave: **DC 20**
+
+Si falla, Shar toma el control y el DM dicta las decisiones del personaje. Tras cualquier intento (éxito o fracaso), el vínculo se resetea por completo: se tira un nuevo umbral 2d20 oculto, y la Corrupción vuelve a cero.
+
+{{pageNumber,auto}}
+
+\page
+
+## CHAPTER 5 — INDIGO (CELESTIAL STEED)
+
+*Summoned Spirit - Celestial Elk : Large Beast*
+
+Indigo no es un animal ordinario, es un espíritu celestial invocado mediante el hechizo Find Steed (PHB 252). Toma la forma física de un Elk (Ciervo) gigante, pero con inteligencia mejorada y una lealtad absoluta hacia Dieter.
+
+### Base Stats (Elk)
+*Monster Manual 322*
+- **Armor Class (AC):** 10
+- **Hit Points (HP):** 15 (2d10 + 2)
+- **Speed:** 50 ft.
+- **Attributes:** STR 16 (+3) | DEX 10 (+0) | CON 12 (+1) | INT 6 (-2) (modificado) | WIS 10 (+0) | CHA 6 (-2)
+
+### Traits & Attacks
+- **Charge (Carga):** Si Indigo se mueve al menos 20 ft en línea recta hacia un target y le pega con el ataque Ram en ese mismo turno, el golpe hace **+2d6 damage** extra. Además, el target debe hacer un STR saving throw (**DC 13**); si falla, cae **prone**.
+- **Ram (Cornada):** Melee Weapon Attack. +5 to hit, reach 5 ft. Daño: **1d6 + 3 bludgeoning**.
+- **Hooves (Pezuñas):** Melee Weapon Attack. +5 to hit, reach 5 ft. Daño: **2d4 + 3 bludgeoning**. (Ideal para atacar a un enemigo que ya está prone).
+
+### Find Steed Special Rules
+El vínculo mágico entre el Paladín y su montura altera las reglas normales de combate y magia:
+- **Telepathic Bond:** Mientras estén a 1 milla o menos de distancia, podés comunicarte telepáticamente con Indigo.
+- **Shared Spells** (Clave en Combate): Cuando casteás un spell que hace target exclusivamente a vos (self), podés hacer que también afecte a Indigo si estás montado.
+  - **Ejemplos válidos:** Shield of Faith (ambos ganan +2 AC), Divine Favor (ambos suman +1d4 radiant a sus ataques), Searing/Thunderous/Wrathful Smite, y Cure Wounds (si te curás a vos mismo).
+- **Seamless Unit:** En combate actúan como una unidad. Aunque su Inteligencia (6) le permite actuar de forma independiente según las reglas de Mounted Combat (PHB 198), el vínculo asegura que siga tus directivas sin requerir chequeos de Animal Handling.
+
+### Mounted Combat (PHB 198)
+- **Montar y Desmontar:** Te cuesta una cantidad de movimiento igual a la mitad de tu speed (15 ft). Si tu speed llega a 0, no podés montar ni desmontar.
+- **Movimiento Controlado:** Si controlás la montura, Indigo iguala tu iniciativa. En su turno, Indigo solo puede usar tres actions: **Dash, Disengage, o Dodge**.
+- **Movimiento Independiente:** Al tener INT 6, podés dejar que Indigo actúe de forma independiente. Tira su propia iniciativa y puede usar sus acciones para atacar (usando *Charge* y *Ram*), pero se mueve según su propio criterio bajo el control del DM (aunque siendo leal a vos).
+- **Caídas:** Si un efecto te mueve en contra de tu voluntad estando montado, o si Indigo cae *prone*, tenés que hacer un **DEX saving throw (DC 10)**. Si fallás, caés al piso *prone* a 5 ft de él.
+
+{{position:absolute,left:0,top:850px,width:816px,height:200px,margin:0,padding:0
+![Indigo, el ciervo celestial de Dieter](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/dieter-cierre.webp){width:816px,height:200px,display:block,margin:0}
+}}
+
+{{pageNumber,auto}}
