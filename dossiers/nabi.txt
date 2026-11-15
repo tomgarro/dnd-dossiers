@@ -96,6 +96,10 @@ Una sola por ronda; la recuperás al inicio de tu turno — *PHB 190*.
 
 {{watercolor2,top:20px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}
 
+{{imageMaskEdge2,--offset:-143px,-rotation:0
+  ![Nabi haciendo brotar vida en el desierto muerto, de noche](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/nabi-p2.jpg){width:650px,opacity:.85,margin-bottom:11px,margin-left:83px}
+}}
+
 {{pageNumber,auto}}
 
 \page
