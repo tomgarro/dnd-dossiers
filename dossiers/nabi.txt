@@ -432,6 +432,9 @@ El hechizo básico para esto es Revivify (nv 3). El personaje fallecido tira el 
 
 {{watercolor5,top:50px,rotation:90%,left:-150px,width:1000px,background-color:#BBAD82,opacity:60%}}
 
+{{imageMaskEdge2,--offset:-28px,-rotation:0
+  ![Nabi sobre una duna bajo la luna](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/nabi-cierre.jpg){width:816px,opacity:.85,margin-bottom:14px}
+}}
+
 {{pageNumber,auto}}
 
-<!-- IMAGEN PÁG. 7: acá va el bloque imageMaskEdge2 de cierre (misma posición que la última página del dossier de Dieter) -->

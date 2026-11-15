@@ -167,6 +167,10 @@ Creás un sonido o la imagen de un objeto en un cubo de 5 ft. Sirve para distrae
 - **2 ki**: Shadow Arts.
 - **Mejor uso**: Stunning Strike sobre el enemigo más peligroso. Si sobra ki, Flurry of Blows.
 
+{{imageMaskEdge2,--offset:-128px,-rotation:0
+  ![Narxira avanzando pegada a la pared mientras la oscuridad cubre el pasillo](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/narxira-cap3.jpg){width:816px,opacity:.85,margin-bottom:116px}
+}}
+
 {{pageNumber,auto}}
 
 \page
@@ -195,6 +199,9 @@ El hechizo básico para esto es Revivify (nv 3). El personaje fallecido tira el 
 
 {{watercolor5,top:50px,rotation:90%,left:-150px,width:1000px,background-color:#BBAD82,opacity:60%}}
 
+{{imageMaskEdge2,--offset:-28px,-rotation:0
+  ![Narxira sobre las ruinas de un arco, mirando el valle entre la niebla](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/narxira-cierre.jpg){width:816px,opacity:.85,margin-bottom:14px}
+}}
+
 {{pageNumber,auto}}
 
-<!-- IMAGEN PÁG. 5: acá va el bloque imageMaskEdge2 de cierre (misma posición que la última página del dossier de Dieter) -->
