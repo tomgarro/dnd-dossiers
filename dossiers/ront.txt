@@ -1,0 +1,214 @@
+<style>
+.page { column-count: 1; }
+.page .spells-grid { column-count: 2; column-gap: 36px; display: block; margin: 6px 0; }
+.page .spells-grid p { break-inside: avoid; margin-bottom: 9px; }
+</style>
+
+{{watercolor3,top:720px,rotation:90%,left:154px,width:700px,background-color:#BBAD82,opacity:80%}}
+
+
+:::
+<div style="text-align: center">
+
+# RONT
+
+:
+##### Barbarian · Level **5** · Combat and Mechanics Dossier
+*Rage is a promise.*
+::
+</div>
+
+## CHAPTER 1 — ACTION ECONOMY
+
+### Actions
+
+- **Attack** (con *Extra Attack*, atacás dos veces por turno) — *PHB 49*
+  - **A dos manos** (greatsword o maul): d20 + STR + 3 to hit, **2d6 + STR**. Heavy, two-handed. En Rage, **+2** al daño.
+  - **Con escudo** (battleaxe o warhammer): d20 + STR + 3 to hit, **1d8 + STR**. El escudo suma **+2 a la AC**. En Rage, **+2** al daño.
+- **Grapple o Shove** — *PHB 195*: en vez de uno de tus ataques. Prueba de Athletics (STR) contra Athletics o Acrobatics del enemigo; en Rage, con **advantage**.
+- **Reckless Attack** — *PHB 48*: en tu primer ataque del turno, **advantage** en todos tus ataques con STR este turno. Los ataques contra vos también tienen advantage hasta tu próximo turno.
+- **Javelin** — *PHB 149*: d20 + STR + 3 to hit, **1d6 + STR piercing**. Thrown, range 30/120 ft.
+
+### Combat Basic Actions (PHB 192-193)
+
+{{spells-grid
+**DASH**  
+*Action | Movement*  
+Ganás movimiento extra para este turno igual a tu speed actual (después de aplicar modificadores). Con tu speed de 40 ft (30 base + 10 Fast Movement), si usás Dash podés moverte hasta 80 ft en total en ese turno.
+
+**DISENGAGE**  
+*Action | Defense / Movement*  
+Si tomás esta action, tu movimiento no provoca *attacks of opportunity* por el resto de tu turno. Es ideal para reposicionarte o escapar de múltiples enemigos en cuerpo a cuerpo sin recibir daño gratis.
+
+**DODGE**  
+*Action | Defense*  
+Te enfocás 100% en esquivar. Hasta el inicio de tu próximo turno, cualquier attack roll en tu contra tiene **disadvantage** (siempre y cuando puedas ver al atacante), y hacés todos tus DEX saving throws con **advantage**. Perdés este beneficio si quedás *incapacitated* o si tu speed baja a 0.
+
+**HELP**  
+*Action | Utility / Combat*  
+Ayudás a una criatura. Si la asistís en una tarea, le das **advantage** en su próximo ability check. En combate, podés distraer a un enemigo que esté a 5 ft de vos: el primer attack roll de un aliado contra ese enemigo tiene **advantage** (siempre que el ataque ocurra antes de tu próximo turno).
+
+**HIDE**  
+*Action | Stealth*  
+Hacés un check de Dexterity (Stealth) para intentar esconderte. No podés esconderte de una criatura que te ve claramente: necesitás cobertura, oscuridad o niebla, y permanecer en silencio. Contra tu check, el DM usa el Wisdom (Perception) de quien te busque.
+
+**READY**  
+*Action ➔ Reaction | Tactical*  
+Preparás una acción para detonarla más tarde en la ronda. Definís un **trigger** perceptible (ej: "si el orco cruza la puerta") y qué action vas a tomar (ej: "le pego con el hacha"). Cuando ocurre el trigger, gastás tu **reaction** para ejecutarla. Si preparás un hechizo, debés castearlo en tu turno y retener la energía, lo que requiere *concentration*.
+
+**SEARCH**  
+*Action | Perception*  
+Dedicás toda tu atención a buscar o encontrar algo oculto en medio del caos del combate. Dependiendo de lo que intentes buscar, el DM te va a pedir que tires un check de Wisdom (Perception) o de Intelligence (Investigation).
+}}
+
+{{pageNumber 1}}
+
+\page
+
+### Bonus Actions
+
+- **Rage** — *PHB 48*: entrás en Rage (**3 usos** por long rest). Conviene **antes** de atacar.
+- **Frenzy attack** — *PHB 49*: solo si elegiste Frenzy al entrar en Rage. **1 melee weapon attack** extra por turno. Son 3 golpes en vez de 2.
+- **Terminar la Rage** — *PHB 48*: podés cortarla cuando quieras, gratis.
+
+### Reactions
+
+Una sola por ronda; la recuperás al inicio de tu turno — *PHB 190*.
+
+- **Opportunity Attack** — *PHB 195*: un melee attack al enemigo que sale de tu alcance. En Rage suma **+2** al daño. *Reckless Attack* solo funciona en tu turno: este golpe va sin advantage.
+- **Danger Sense** y **Relentless Endurance** son pasivas: no gastan Reaction.
+
+{{descriptive
+#### Rage
+*PHB 48* — Bonus action. No funciona con armadura pesada. Dura **1 minuto**. Mientras dura: **advantage** en checks y saves de **STR**, **+2** al daño de melee con STR, y **resistance** a daño bludgeoning, piercing y slashing. No podés lanzar spells ni concentrarte. Se apaga si quedás inconsciente o si tu turno termina sin haber atacado ni recibido daño desde el anterior.
+}}
+
+{{descriptive
+#### Frenzy
+*PHB 49* — Berserker. Mientras dure la Rage: un melee weapon attack extra como bonus action en cada turno posterior al primero. Al terminar la Rage ganás **1 nivel de exhaustion**. Usalo en la pelea importante del día, no en cada una.
+}}
+
+{{watercolor2,top:20px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}
+
+{{imageMaskEdge2,--offset:100px,-rotation:0
+  ![Ront en Rage entre los pinos, de noche](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/ront-p2.jpg){width:100%,opacity:.8,margin-top:20px,margin-bottom:-451px}
+}}
+
+{{pageNumber,auto}}
+
+\page
+
+## CHAPTER 2 — FEATURES & EQUIPMENT
+{{watercolor8,top:500px,left:300px,width:500px,background-color:#BBAD82,opacity:60%}}
+### Racial Traits (Half-Orc)
+*PHB 40-41* — Reglas básicas a tener en cuenta en exploración y combate:
+- **Speed:** Tu velocidad base para moverte es de **30 ft**.
+- **Size:** Sos de tamaño Medium. Ocupás un espacio de 5x5 ft.
+- **Darkvision** — *PHB 41*: en penumbra ves hasta 60 ft como si hubiera luz, y en oscuridad como si fuera penumbra (sin color).
+- **Menacing** — *PHB 41*: proficiency en **Intimidation**.
+- **Relentless Endurance** — *PHB 41*: cuando caés a 0 HP pero no morís en el acto, quedás en **1 HP**. **1 uso** por long rest.
+- **Savage Attacks** — *PHB 41*: en un crítico con arma cuerpo a cuerpo, tirás **un dado más** del arma y lo sumás.
+
+### Barbarian Features
+- **Rage** — *PHB 48*. **3 usos** por long rest, **+2** al daño (ver CHAPTER 1).
+- **Unarmored Defense** — *PHB 48*. Sin armadura, tu AC es **10 + DEX + CON**. Podés sumar un escudo.
+- **Reckless Attack** — *PHB 48*. Advantage a cambio de dársela a los enemigos.
+- **Danger Sense** — *PHB 48*. **Advantage** en DEX saves contra efectos que podés ver (trampas, spells de área). No funciona si estás *blinded*, *deafened* o *incapacitated*.
+- **Fast Movement** — *PHB 49*. **+10 ft** de speed sin armadura pesada.
+- **Extra Attack** — *PHB 49*. Atacás **dos veces** en lugar de una cuando usás la Attack action.
+
+### Path of the Berserker
+*PHB 49* — Tu furia es pura violencia.
+- **Frenzy** (nivel 3): ver CHAPTER 1.
+- **Mindless Rage** (nivel 6): todavía **no**.
+
+### Feat (nivel 4)
+**[COMPLETAR: nombre del feat y qué hace]**
+
+{{pageNumber,auto}}
+
+\page
+
+### Inventory: Explorer's Pack
+*PHB 47 y 151* — Aparte de tus armas y escudo, tenés encima este paquete de supervivencia básica:
+- Backpack (mochila).
+- Bedroll (bolsa de dormir).
+- Mess kit (kit de cocina/comedor de campaña).
+- Tinderbox (yesquero para iniciar fuegos).
+- 10 torches (antorchas).
+- 10 days of rations (raciones secas de viaje).
+- Waterskin (odre de agua).
+- 50 feet of hempen rope (cuerda de cáñamo atada a un costado de la mochila).
+- **Cuatro javelins**.
+
+## CHAPTER 3 — RAGE, GRAPPLE & EXHAUSTION
+
+{{spells-grid
+**RAGE**  
+*Bonus Action | Self | 1 min*  
+**3 usos** por long rest. **Advantage** en checks y saves de STR. **+2** al daño melee con STR. **Resistance** a bludgeoning, piercing y slashing. No spells, no concentration. Se apaga si pasa un turno sin que ataques o recibas daño.
+
+**FRENZY**  
+*PHB 49 | Dentro de la Rage*  
+Si lo elegís al entrar, hacés un **melee weapon attack extra** como bonus action cada turno. Al terminar la Rage: **1 nivel de exhaustion**.
+
+**RECKLESS ATTACK**  
+*PHB 48 | Primer ataque del turno*  
+**Advantage** en todos tus ataques melee con STR en este turno. Hasta tu próximo turno, los ataques contra vos tienen **advantage**. Casi siempre conviene en Rage; evitalo si estás rodeado o con pocos HP.
+
+**GRAPPLE**  
+*PHB 195 | En vez de un ataque*  
+Con una mano libre, prueba de **Athletics** contra Athletics o Acrobatics del objetivo (hasta una talla mayor). Si ganás, su speed pasa a **0**. En Rage, con advantage.
+
+**SHOVE**  
+*PHB 195 | En vez de un ataque*  
+Misma prueba. Si ganás, el objetivo cae **prone** o lo empujás **5 ft** lejos de vos. Combo: Shove al piso y el segundo golpe con advantage.
+
+**DAMAGE RESISTANCE**  
+*PHB 197*  
+El daño se **divide a la mitad**, redondeando hacia abajo. En Rage, vale contra bludgeoning, piercing y slashing; no cubre fuego, frío, rayo, veneno, necrotic ni otros tipos mágicos.
+
+**CAMBIAR DE ARMA**  
+*PHB 146 y 190*  
+Soltar un arma es gratis. Sacar otra es tu *object interaction* gratis del turno. **Ponerte o sacarte el escudo** cuesta tu Action: elegí antes de empezar según el enemigo.
+
+**EXHAUSTION**  
+*PHB 291 | Los niveles se acumulan*  
+1: disadvantage en ability checks. 2: speed a la mitad. 3: disadvantage en ataques y saves. 4: HP máximo a la mitad. 5: speed 0. 6: muerte. Un long rest (con comida y agua) saca **1 nivel**.
+}}
+
+{{imageMaskEdge2,--offset:100px,-rotation:0
+  ![Ront de espaldas frente a una horda](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/ront-cap3.jpg){width:100%,opacity:.8,margin-top:20px,margin-bottom:-285px}
+}}
+
+{{pageNumber,auto}}
+
+\page
+
+## CHAPTER 4 — HOMEBREW
+
+### Resurrection Rules
+
+Para que la resurrección sea posible, el cuerpo tiene que ser reconocible y los órganos vitales intactos. Un cuerpo incinerado o desmembrado no sirve. La ventana de tiempo es extremadamente breve: **un minuto** desde la muerte. Pasado ese tiempo, el alma se pierde.
+:
+El hechizo básico para esto es Revivify (nv 3). El personaje fallecido tira el **Saving Throw Final de Vida o Muerte**. El DC sube según las muertes previas:
+*   1ª muerte: **DC 5**
+*   2ª muerte: **DC 10**
+*   3ª muerte: **DC 15**
+*   4ª muerte: **DC 20**
+*   5ª muerte: **Definitiva.** No hay tirada.
+
+**El precio de la magia.** Ningún ritual sale gratis. Arrancar un alma cuesta energía. El caster sufre reducción **permanente** de HP máximo (1d6), no curable con descansos.
+*   **Revivify (nv 3):** caster recibe 1d6 completo de daño permanente.
+:
+*   **Raise Dead / Reincarnate (nv 5):** caster recibe la mitad del 1d6 (redondeado arriba).
+:
+*   **Resurrection (nv 7):** caster elige entre recibir la mitad del daño **o** darle advantage al Saving Throw Final del fallecido.
+:
+*   **True Resurrection / Wish (nv 9):** caster recibe **ambos** beneficios.
+
+{{watercolor5,top:50px,rotation:90%,left:-150px,width:1000px,background-color:#BBAD82,opacity:60%}}
+
+{{pageNumber,auto}}
+
+<!-- IMAGEN PÁG. 5: acá va el bloque imageMaskEdge2 de cierre (misma posición que la última página del dossier de Dieter) -->

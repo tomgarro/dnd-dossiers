@@ -1,0 +1,208 @@
+<style>
+.page { column-count: 1; }
+.page .spells-grid { column-count: 2; column-gap: 36px; display: block; margin: 6px 0; }
+.page .spells-grid p { break-inside: avoid; margin-bottom: 9px; }
+</style>
+
+{{watercolor3,top:720px,rotation:90%,left:154px,width:700px,background-color:#BBAD82,opacity:80%}}
+
+
+:::
+<div style="text-align: center">
+
+# ECLIPSO
+
+:
+##### Rogue · Level **5** · Combat and Mechanics Dossier
+*Quiet steps. Sharp ends.*
+::
+</div>
+
+## CHAPTER 1 — ACTION ECONOMY
+
+### Actions
+
+- **Attack** (un solo ataque: el Rogue no tiene *Extra Attack*) — *PHB 192*
+  - **Armas finesse** (rapier 1d8, shortsword 1d6, dagger 1d4): d20 + DEX + 3 to hit, daño del arma + DEX.
+  - **Shortbow**: d20 + DEX + 3 to hit, **1d6 + DEX piercing**. Ranged, range 80/320 ft.
+- **Sneak Attack** — *PHB 96*: una vez por turno, **+3d6** al daño si cumplís la condición. Ver el cuadro de abajo y **CHAPTER 3**.
+- **Hide** — *PHB 177*: como Action si no la gastás en otra cosa. Normalmente conviene usar Cunning Action.
+- **Use an Object** — *PHB 193*: una segunda interacción con objetos en el turno. Con *Fast Hands* pasa a bonus action.
+
+### Combat Basic Actions (PHB 192-193)
+
+{{spells-grid
+**DASH**  
+*Action | Movement*  
+Ganás movimiento extra para este turno igual a tu speed actual (después de aplicar modificadores). Con tu speed base de 30 ft, si usás Dash podés moverte hasta 60 ft en total en ese turno. Con *Cunning Action* lo hacés como bonus action.
+
+**DISENGAGE**  
+*Action | Defense / Movement*  
+Si tomás esta action, tu movimiento no provoca *attacks of opportunity* por el resto de tu turno. Es ideal para reposicionarte o escapar de múltiples enemigos en cuerpo a cuerpo sin recibir daño gratis. Con *Cunning Action* lo hacés como bonus action.
+
+**DODGE**  
+*Action | Defense*  
+Te enfocás 100% en esquivar. Hasta el inicio de tu próximo turno, cualquier attack roll en tu contra tiene **disadvantage** (siempre y cuando puedas ver al atacante), y hacés todos tus DEX saving throws con **advantage**. Perdés este beneficio si quedás *incapacitated* o si tu speed baja a 0.
+
+**HELP**  
+*Action | Utility / Combat*  
+Ayudás a una criatura. Si la asistís en una tarea, le das **advantage** en su próximo ability check. En combate, podés distraer a un enemigo que esté a 5 ft de vos: el primer attack roll de un aliado contra ese enemigo tiene **advantage** (siempre que el ataque ocurra antes de tu próximo turno).
+
+**HIDE**  
+*Action | Stealth*  
+Hacés un check de Dexterity (Stealth) para intentar esconderte. No podés esconderte de una criatura que te ve claramente: necesitás cobertura, oscuridad o niebla, y permanecer en silencio. Contra tu check, el DM usa el Wisdom (Perception) de quien te busque. Con *Cunning Action* lo hacés como bonus action.
+
+**READY**  
+*Action ➔ Reaction | Tactical*  
+Preparás una acción para detonarla más tarde en la ronda. Definís un **trigger** perceptible (ej: "si el orco cruza la puerta") y qué action vas a tomar (ej: "le disparo"). Cuando ocurre el trigger, gastás tu **reaction** para ejecutarla. Si preparás un hechizo, debés castearlo en tu turno y retener la energía, lo que requiere *concentration*.
+
+**SEARCH**  
+*Action | Perception*  
+Dedicás toda tu atención a buscar o encontrar algo oculto en medio del caos del combate. Dependiendo de lo que intentes buscar, el DM te va a pedir que tires un check de Wisdom (Perception) o de Intelligence (Investigation).
+}}
+
+{{pageNumber 1}}
+
+\page
+
+### Bonus Actions
+
+- **Cunning Action** — *PHB 96*: **Dash**, **Disengage** o **Hide** como bonus action. Arco: Hide. Espada: Disengage. Hay que llegar lejos: Dash.
+- **Fast Hands** (Thief) — *PHB 97*: la bonus action de Cunning Action también sirve para una prueba de **Sleight of Hand**, usar **thieves' tools** o la **Use an Object** action.
+- **Two-Weapon Fighting** — *PHB 195*: si atacaste con un arma *light* y tenés otra *light* en la otra mano, atacás con la segunda como bonus action. Este daño **no suma DEX**.
+
+### Reactions
+
+Una sola por ronda; la recuperás al inicio de tu turno — *PHB 190*.
+
+- **Uncanny Dodge** — *PHB 96*: cuando un atacante que **ves** te pega, reducís el daño a la **mitad**.
+- **Opportunity Attack** — *PHB 195*: un ataque al enemigo que sale de tu alcance. Podés sumar Sneak Attack: vale una vez por **cada** turno, también los de otros.
+
+{{descriptive
+#### Sneak Attack
+*PHB 96* — No consume action. Es un rider: **una vez por turno**, al acertar con un arma *finesse* o a distancia, sumás **+3d6** al daño si se cumple **una** de estas:
+- Tenés **advantage** en el ataque.
+- Un enemigo del objetivo está a **5 ft** de él, no está *incapacitated*, y vos **no** tenés disadvantage.
+}}
+
+{{descriptive
+#### Uncanny Dodge
+*PHB 96* — Solo funciona si **ves** al atacante, y solo con un ataque que **acierta**. Reducís el daño a la mitad. Gasta tu Reaction.
+}}
+
+{{watercolor2,top:20px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}
+
+{{imageMaskEdge2,--offset:100px,-rotation:0
+  ![Eclipso agazapado en un techo con el arco tensado](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/eclipso-p2.jpg){width:100%,opacity:.8,margin-top:20px,margin-bottom:-451px}
+}}
+
+{{pageNumber,auto}}
+
+\page
+
+## CHAPTER 2 — FEATURES & EQUIPMENT
+{{watercolor8,top:500px,left:300px,width:500px,background-color:#BBAD82,opacity:60%}}
+### Racial Traits (Half-Elf)
+*PHB 38-39* — Reglas básicas a tener en cuenta en exploración y combate:
+- **Speed:** Tu velocidad base para moverte es de **30 ft**.
+- **Size:** Sos de tamaño Medium. Ocupás un espacio de 5x5 ft.
+- **Darkvision** — *PHB 39*: en penumbra ves hasta 60 ft como si hubiera luz, y en oscuridad como si fuera penumbra (sin color).
+- **Fey Ancestry** — *PHB 39*: **advantage** en saving throws contra *charmed*, y la magia no puede dormirte.
+- **Skill Versatility** — *PHB 39*: proficiency en dos skills a elección.
+
+### Rogue Features
+- **Expertise** — *PHB 96*. Duplicás tu proficiency bonus en dos skills (o una skill y *thieves' tools*) a elección. Si sumás Stealth, aplica al Hide.
+- **Sneak Attack** — *PHB 96*. **+3d6** una vez por turno (ver CHAPTER 1).
+- **Thieves' Cant** — *PHB 96*. Jerga secreta de los ladrones: mensajes escondidos dentro de una conversación normal.
+- **Cunning Action** — *PHB 96*. Dash, Disengage o Hide como bonus action.
+- **Uncanny Dodge** — *PHB 96*. Reducís a la mitad el daño de un ataque que acierta.
+
+### Roguish Archetype: Thief
+*PHB 97* — Tu especialidad son los trucos de mano y la agilidad.
+- **Fast Hands** — *PHB 97*. Tu bonus action de Cunning Action también sirve para Sleight of Hand, *thieves' tools* y *Use an Object*.
+- **Second-Story Work** — *PHB 97*. Trepar **no cuesta movimiento extra**. Al saltar con carrera, la distancia aumenta en tu modificador de DEX en ft.
+- **Supreme Sneak** (nivel 9): todavía **no**.
+
+{{pageNumber,auto}}
+
+\page
+
+### Inventory: Starting Equipment
+*PHB 96* — El equipo inicial del Rogue incluye:
+- **Leather armor** (AC 11 + DEX).
+- **Dos daggers**.
+- **Thieves' tools** (ganzúas, lima, espejo, tijeras y más).
+- Un **rapier** o una shortsword; un **shortbow con 20 flechas** o una shortsword.
+- Un pack de aventurero: **[COMPLETAR: Burglar's, Dungeoneer's o Explorer's Pack — PHB 151]**.
+
+## CHAPTER 3 — STEALTH & SNEAK ATTACK
+
+{{spells-grid
+**SNEAK ATTACK**  
+*PHB 96 | Una vez por turno*  
+Arma **finesse** o a distancia. Sumás **+3d6** si tenés advantage, **o** si otro enemigo del objetivo está a 5 ft de él (no *incapacitated*) y vos no tenés disadvantage. Con un crítico se duplican los dados. Podés usarlo también en el turno de otro (con un Opportunity Attack).
+
+**ADVANTAGE**  
+*PHB 173 | ¿Cómo la consigo?*  
+Estás escondido al atacar. El objetivo está *prone* y lo golpeás cuerpo a cuerpo. El objetivo está *blinded*, *restrained*, *stunned* o *paralyzed*. Un aliado te hace **Help**.
+
+**HIDE**  
+*PHB 177 | Dexterity (Stealth)*  
+No podés esconderte de una criatura que te ve claramente. Tu check se enfrenta al Wisdom (Perception) de quien te busque. Si hacés ruido, delatás tu posición. Atacar desde el escondite te revela, acierte o falle.
+
+**UNSEEN ATTACKER**  
+*PHB 194*  
+Atacar desde donde no te ven da **advantage**. Al atacar, el objetivo sabe de dónde vino el ataque, aunque falles.
+
+**RANGED IN CLOSE COMBAT**  
+*PHB 195*  
+Si disparás con un enemigo hostil a 5 ft que te ve y no está incapacitado, tenés **disadvantage** y, por lo tanto, **no hay Sneak Attack** salvo que te cubra otra condición.
+
+**COVER**  
+*PHB 196*  
+**Half cover**: +2 a la AC y a los DEX saves. **Three-quarters cover**: +5. **Total cover**: no pueden apuntarte directamente. Detrás de algo que te tape podés esconderte el siguiente turno.
+
+**TWO-WEAPON FIGHTING**  
+*PHB 195*  
+Con dos armas *light* en cada mano, la segunda ataca como bonus action, sin sumar tu modificador de DEX al daño. Si el primer ataque falló, es otra chance de meter el Sneak Attack. Gasta la bonus action: ese turno no hay Cunning Action.
+
+**PASSIVE PERCEPTION**  
+*PHB 175*  
+10 + modificadores de Wisdom (Perception). El DM la usa para saber si un enemigo nota tu escondite sin tirar dados.
+}}
+
+{{imageMaskEdge2,--offset:100px,-rotation:0
+  ![Eclipso detrás de un guardia que no lo ve](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/eclipso-cap3.jpg){width:100%,opacity:.8,margin-top:20px,margin-bottom:-285px}
+}}
+
+{{pageNumber,auto}}
+
+\page
+
+## CHAPTER 4 — HOMEBREW
+
+### Resurrection Rules
+
+Para que la resurrección sea posible, el cuerpo tiene que ser reconocible y los órganos vitales intactos. Un cuerpo incinerado o desmembrado no sirve. La ventana de tiempo es extremadamente breve: **un minuto** desde la muerte. Pasado ese tiempo, el alma se pierde.
+:
+El hechizo básico para esto es Revivify (nv 3). El personaje fallecido tira el **Saving Throw Final de Vida o Muerte**. El DC sube según las muertes previas:
+*   1ª muerte: **DC 5**
+*   2ª muerte: **DC 10**
+*   3ª muerte: **DC 15**
+*   4ª muerte: **DC 20**
+*   5ª muerte: **Definitiva.** No hay tirada.
+
+**El precio de la magia.** Ningún ritual sale gratis. Arrancar un alma cuesta energía. El caster sufre reducción **permanente** de HP máximo (1d6), no curable con descansos.
+*   **Revivify (nv 3):** caster recibe 1d6 completo de daño permanente.
+:
+*   **Raise Dead / Reincarnate (nv 5):** caster recibe la mitad del 1d6 (redondeado arriba).
+:
+*   **Resurrection (nv 7):** caster elige entre recibir la mitad del daño **o** darle advantage al Saving Throw Final del fallecido.
+:
+*   **True Resurrection / Wish (nv 9):** caster recibe **ambos** beneficios.
+
+{{watercolor5,top:50px,rotation:90%,left:-150px,width:1000px,background-color:#BBAD82,opacity:60%}}
+
+{{pageNumber,auto}}
+
+<!-- IMAGEN PÁG. 5: acá va el bloque imageMaskEdge2 de cierre (misma posición que la última página del dossier de Dieter) -->

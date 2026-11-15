@@ -1,0 +1,437 @@
+<style>
+.page { column-count: 1; }
+.page .spells-grid { column-count: 2; column-gap: 36px; display: block; margin: 6px 0; }
+.page .spells-grid p { break-inside: avoid; margin-bottom: 9px; }
+</style>
+
+{{watercolor3,top:720px,rotation:90%,left:154px,width:700px,background-color:#BBAD82,opacity:80%}}
+
+
+:::
+<div style="text-align: center">
+
+# NABI
+
+:
+##### Druid · Level **5** · Combat and Mechanics Dossier
+*Dry land. Deep roots.*
+::
+</div>
+
+## CHAPTER 1 — ACTION ECONOMY
+
+### Actions
+
+- **Cast a Spell** — *PHB 192*: tu Action principal. **Spell save DC** = 8 + 3 + WIS. **Spell attack** = d20 + 3 + WIS. Slots: **4** de 1st, **3** de 2nd, **2** de 3rd. Ver **CHAPTER 3**.
+- **Cantrips** — *PHB 201*: no gastan slots. A nivel 5 suben de daño:
+  - **Produce Flame**: spell attack, 30 ft, **2d8 fire**.
+  - **Thorn Whip**: spell attack, 30 ft, **2d6 piercing** y lo acercás 10 ft.
+  - **Poison Spray**: CON save, 10 ft, **2d12 poison**.
+- **Wild Shape** — *PHB 66*: te transformás en una bestia. **2 usos** por short rest. Ver el cuadro de abajo.
+- **Buenos primeros turnos** (si los tenés preparados): *Entangle*, *Spike Growth*, *Moonbeam*, *Conjure Animals*, *Call Lightning*. Todos piden **concentration**: uno a la vez.
+
+### Combat Basic Actions (PHB 192-193)
+
+{{spells-grid
+**DASH**  
+*Action | Movement*  
+Ganás movimiento extra para este turno igual a tu speed actual (después de aplicar modificadores). Con tu speed base de 30 ft, si usás Dash podés moverte hasta 60 ft en total en ese turno.
+
+**DISENGAGE**  
+*Action | Defense / Movement*  
+Si tomás esta action, tu movimiento no provoca *attacks of opportunity* por el resto de tu turno. Es ideal para reposicionarte o escapar de múltiples enemigos en cuerpo a cuerpo sin recibir daño gratis.
+
+**DODGE**  
+*Action | Defense*  
+Te enfocás 100% en esquivar. Hasta el inicio de tu próximo turno, cualquier attack roll en tu contra tiene **disadvantage** (siempre y cuando puedas ver al atacante), y hacés todos tus DEX saving throws con **advantage**. Perdés este beneficio si quedás *incapacitated* o si tu speed baja a 0. Ideal para cuidar la concentration.
+
+**HELP**  
+*Action | Utility / Combat*  
+Ayudás a una criatura. Si la asistís en una tarea, le das **advantage** en su próximo ability check. En combate, podés distraer a un enemigo que esté a 5 ft de vos: el primer attack roll de un aliado contra ese enemigo tiene **advantage** (siempre que el ataque ocurra antes de tu próximo turno).
+
+**HIDE**  
+*Action | Stealth*  
+Hacés un check de Dexterity (Stealth) para intentar esconderte. No podés esconderte de una criatura que te ve claramente: necesitás cobertura, oscuridad o niebla, y permanecer en silencio. Contra tu check, el DM usa el Wisdom (Perception) de quien te busque.
+
+**READY**  
+*Action ➔ Reaction | Tactical*  
+Preparás una acción para detonarla más tarde en la ronda. Definís un **trigger** perceptible (ej: "si el orco cruza la puerta") y qué action vas a tomar (ej: "le tiro el spell"). Cuando ocurre el trigger, gastás tu **reaction** para ejecutarla. Si preparás un hechizo, debés castearlo en tu turno y retener la energía, lo que requiere *concentration* y gasta el slot.
+
+**SEARCH**  
+*Action | Perception*  
+Dedicás toda tu atención a buscar o encontrar algo oculto en medio del caos del combate. Dependiendo de lo que intentes buscar, el DM te va a pedir que tires un check de Wisdom (Perception) o de Intelligence (Investigation).
+}}
+
+{{pageNumber 1}}
+
+\page
+
+### Bonus Actions
+
+- **Misty Step** (Fey Touched) — *PHB 260*: teletransportás 30 ft a un espacio visible. **1 vez por long rest gratis**; después, con un slot de 2nd.
+- **Healing Word** — *PHB 250*: a 60 ft, curás **1d4 + WIS**. Levanta a un aliado caído sin gastar tu Action.
+- **Shillelagh** (cantrip) — *PHB 275*: tu club o quarterstaff pega con **WIS** y hace **1d8**.
+- **Spell de Fey Touched** — *Tasha's 79*: un spell de 1st level de divination o enchantment, **1 vez por long rest gratis**. **[COMPLETAR: cuál]**
+- **Volver de Wild Shape** — *PHB 67*: gratis con tu bonus action.
+- **Regla de 2 spells** — *PHB 202*: si lanzás un spell como bonus action, con tu Action **solo** podés lanzar un cantrip. Healing Word + Produce Flame sí. Healing Word + Moonbeam no.
+
+### Reactions
+
+Una sola por ronda; la recuperás al inicio de tu turno — *PHB 190*.
+
+- **Opportunity Attack** — *PHB 195*: un ataque al enemigo que sale de tu alcance. Con *Shillelagh*, pegás con WIS. En Wild Shape, con el ataque de la bestia.
+- **Concentration save**: automático, no gasta Reaction. Ver el cuadro de abajo.
+
+{{descriptive
+#### Concentration
+*PHB 203* — Solo **un** spell de concentration a la vez. Si lanzás otro, el primero termina. Cada vez que recibís daño, hacés un **CON save** (**DC 10** o la **mitad del daño**, lo que sea mayor): un save **por cada golpe**. Fallar termina el spell. También termina si quedás *incapacitated* o morís. Podés terminarlo gratis cuando quieras. Se mantiene en Wild Shape.
+}}
+
+{{descriptive
+#### Wild Shape
+*PHB 66-67* — Action. **2 usos** por short o long rest. Te volvés una bestia que hayas visto: **CR máximo 1/2** y **sin velocidad de vuelo**. Dura hasta **2 horas**. Usás los HP de la bestia: si bajan a 0, volvés a tu forma y el daño que sobra pasa a tus HP. No podés lanzar spells transformado, pero **mantenés la concentration**.
+
+**Formas útiles** (CR 1/2 o menos, sin vuelo): Jackal, Giant Lizard, Giant Wolf Spider (explorar) · Camel (cargar) · Panther (acechar) · Black Bear, Ape, Warhorse (pelear) · Crocodile (agua).
+}}
+
+{{watercolor2,top:20px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+
+\page
+
+## CHAPTER 2 — FEATURES & EQUIPMENT
+{{watercolor8,top:500px,left:300px,width:500px,background-color:#BBAD82,opacity:60%}}
+### Racial Traits (Elf)
+*PHB 21-24* — Reglas básicas a tener en cuenta en exploración y combate:
+- **Speed:** Tu velocidad base es de **30 ft** (35 ft si sos Wood Elf). **Size:** Medium.
+- **Darkvision** — *PHB 23*: en penumbra ves hasta 60 ft como si hubiera luz, y en oscuridad como si fuera penumbra.
+- **Keen Senses** — *PHB 23*: proficiency en **Perception**.
+- **Fey Ancestry** — *PHB 23*: **advantage** en saves contra *charmed*; la magia no puede dormirte.
+- **Trance** — *PHB 23*: en vez de dormir, meditás 4 horas y ganás los beneficios de un long rest.
+- **Subrace** — *PHB 23-24*: **[COMPLETAR: High, Wood o Dark Elf]**.
+
+### Druid Features
+- **Druidic** — *PHB 66*. Lenguaje secreto de los druids. Podés dejar mensajes ocultos.
+- **Spellcasting** — *PHB 66*. Tu spellcasting ability es **WIS**. Preparás **WIS + 5** spells por long rest, de la lista de Druid. **Cantrips**: conocés 4 (3 + el Bonus Cantrip del Circle).
+- **Wild Shape** — *PHB 66*. Ver CHAPTER 1. Sube a CR 1 recién a nivel 8.
+- **Spellcasting Focus** — *PHB 66*. Un druidic focus (ramita de muérdago, tótem, bastón de madera).
+
+### Circle of the Land (Desert)
+*PHB 68* — Tu magia viene de la tierra donde fuiste iniciado.
+- **Bonus Cantrip** (nivel 2): un cantrip extra de Druid.
+- **Natural Recovery** (nivel 2): en un short rest recuperás slots que sumen hasta **3 niveles** (ninguno de 6th o más). **1 vez** por long rest.
+- **Circle Spells: Desert**: siempre preparados, no cuentan para tu límite.
+  - **Blur** (2nd) · **Silence** (2nd)
+  - **Create Food and Water** (3rd) · **Protection from Energy** (3rd)
+- **Land's Stride** (nivel 6): todavía **no**.
+
+### Feat: Fey Touched
+*Tasha's Cauldron of Everything, p. 79* — +1 a INT, WIS o CHA. Aprendés **Misty Step** y un spell de 1st level de divination o enchantment. Cada uno se lanza **1 vez por long rest** sin slot; también podés lanzarlos con slots. Tu spellcasting ability para ellos es la que subió el feat.
+
+### Inventory: Explorer's Pack
+*PHB 67 y 151* — Aparte de tu focus y tu arma, tenés este paquete de supervivencia: backpack, bedroll, mess kit, tinderbox, 10 torches, 10 days of rations, waterskin y 50 feet of hempen rope. Los druids no usan armadura ni escudos de metal.
+
+{{pageNumber,auto}}
+
+\page
+
+## CHAPTER 3 — SPELLCASTING
+
+**Spell DC** 8 + 3 + WIS · **Spell attack** d20 + 3 + WIS · **Slots** 4 / 3 / 2 · **Prepared** WIS + 5 (+ Circle Spells).
+
+### Cantrips (conocés 4)
+
+{{spells-grid
+**DRUIDCRAFT**  
+*Action | 30 ft | Instant*  
+Efectos menores de naturaleza: predecir el clima, hacer florecer una planta, encender o apagar una vela.
+
+**GUIDANCE**  
+*Action | Touch | 1 min (conc.)*  
+Un aliado suma **+1d4** a un ability check, una vez.
+
+**MENDING**  
+*1 min | Touch | Instant*  
+Reparás una rotura o rasgadura de un objeto (hasta 1 ft).
+
+**POISON SPRAY**  
+*Action | 10 ft | Instant*  
+CON save o **2d12 poison**.
+
+**PRODUCE FLAME**  
+*Action | Self | 10 min*  
+Llama en tu mano que ilumina 10 ft. Como Action la lanzás a 30 ft (spell attack): **2d8 fire**.
+
+**RESISTANCE**  
+*Action | Touch | 1 min (conc.)*  
+Un aliado suma **+1d4** a un saving throw, una vez.
+
+**SHILLELAGH**  
+*Bonus Action | Touch | 1 min*  
+Tu club o quarterstaff es mágico: pega con **WIS** y hace **1d8**.
+
+**THORN WHIP**  
+*Action | 30 ft | Instant*  
+Melee spell attack: **2d6 piercing**. Si es Large o menor, lo acercás 10 ft.
+}}
+
+### Level 1 Spells
+
+{{spells-grid
+**ANIMAL FRIENDSHIP**  
+*Action | 30 ft | 24 horas*  
+Una bestia con INT 3 o menos hace WIS save o queda *charmed*.
+
+**CHARM PERSON**  
+*Action | 30 ft | 1 hora*  
+Un Humanoid hace WIS save o queda *charmed*. Sabe que lo hechizaste al terminar.
+
+**CREATE OR DESTROY WATER**  
+*Action | 30 ft | Instant*  
+Creás hasta 10 galones de agua o los destruís (o dispersás niebla).
+
+**CURE WOUNDS**  
+*Action | Touch | Instant*  
+Curás **1d8 + WIS**. Sin efecto en undead ni constructs.
+
+**DETECT MAGIC**  
+*Action (ritual) | Self | 10 min (conc.)*  
+Sentís magia a 30 ft y ves su aura y su escuela.
+
+**DETECT POISON AND DISEASE**  
+*Action (ritual) | Self | 10 min (conc.)*  
+Sentís venenos, criaturas venenosas y enfermedades a 30 ft.
+
+**ENTANGLE**  
+*Action | 90 ft | 1 min (conc.)*  
+Un cuadrado de 20 ft: STR save o *restrained*. Terreno difícil.
+
+**FAERIE FIRE**  
+*Action | 60 ft | 1 min (conc.)*  
+Cubo de 20 ft: DEX save o brillan. **Advantage** a los ataques contra ellos; no pueden ser invisibles.
+
+**FOG CLOUD**  
+*Action | 120 ft | 1 hora (conc.)*  
+Esfera de niebla de 20 ft de radio. *Heavily obscured*.
+
+**GOODBERRY**  
+*Action | Touch | Instant*  
+10 bayas: cada una cura 1 HP y alimenta por un día. Duran 24 horas.
+
+**HEALING WORD**  
+*Bonus Action | 60 ft | Instant*  
+Curás **1d4 + WIS** a un aliado que veas.
+
+**JUMP**  
+*Action | Touch | 1 min*  
+Triplicás la distancia de salto de una criatura.
+
+**LONGSTRIDER**  
+*Action | Touch | 1 hora*  
+**+10 ft** de speed a una criatura.
+
+**PURIFY FOOD AND DRINK**  
+*Action | 10 ft | Instant*  
+Limpia de veneno y enfermedad la comida y bebida no mágica en 5 ft de radio.
+
+**SPEAK WITH ANIMALS**  
+*Action (ritual) | Self | 10 min*  
+Hablás y entendés a las bestias.
+
+**THUNDERWAVE**  
+*Action | Self (cubo de 15 ft) | Instant*  
+CON save o **2d8 thunder** y los empujás 10 ft; la mitad si salvan. Se oye a 300 ft.
+}}
+
+{{imageMaskEdge2,--offset:100px,-rotation:0
+  ![Nabi en medio de una tormenta de arena con tres Wild Shapes](https://raw.githubusercontent.com/tomgarro/dnd-dossiers/main/img/nabi-cap3.jpg){width:100%,opacity:.8,margin-top:20px,margin-bottom:-285px}
+}}
+
+{{pageNumber,auto}}
+
+\page
+
+### Level 2 Spells
+
+{{spells-grid
+**BLUR** ✓ PREPARED (Circle)  
+*Action | Self | 1 min (conc.)*  
+Los ataques contra vos tienen **disadvantage**, salvo de quien no dependa de la vista.
+
+**SILENCE** ✓ PREPARED (Circle)  
+*Action (ritual) | 120 ft | 10 min (conc.)*  
+Esfera de 20 ft: sin sonido, sin spells con *verbal components*, todos *deafened* y inmunes a thunder.
+
+**MISTY STEP** ✓ FEY TOUCHED  
+*Bonus Action | Self | Instant*  
+Te teletransportás hasta 30 ft a un espacio que veas. 1 vez por long rest gratis.
+
+**ANIMAL MESSENGER**  
+*Action (ritual) | 30 ft | 24 horas*  
+Una bestia Tiny lleva un mensaje a un lugar.
+
+**BARKSKIN**  
+*Action | Touch | 1 hora (conc.)*  
+Tu AC no baja de **16**, sin importar tu armadura.
+
+**BEAST SENSE**  
+*Action (ritual) | Touch | 1 hora (conc.)*  
+Ves y oís a través de una bestia voluntaria.
+
+**DARKVISION**  
+*Action | Touch | 8 horas*  
+Una criatura voluntaria gana darkvision de 60 ft.
+
+**ENHANCE ABILITY**  
+*Action | Touch | 1 hora (conc.)*  
+Advantage en los checks de una ability, más un efecto extra según la que elijas.
+
+**FIND TRAPS**  
+*Action | 120 ft | Instant*  
+Sentís si hay trampas en tu línea de visión (no cuáles).
+
+**FLAME BLADE**  
+*Bonus Action | Self | 10 min (conc.)*  
+Una espada de fuego: melee spell attack, **3d6 fire**.
+
+**FLAMING SPHERE**  
+*Action | 60 ft | 1 min (conc.)*  
+Esfera de 5 ft: DEX save o **2d6 fire**. La movés 30 ft con tu bonus action.
+
+**GUST OF WIND**  
+*Action | Self (línea de 60 ft) | 1 min (conc.)*  
+Viento fuerte: empuja, apaga llamas, frena el avance.
+
+**HEAT METAL**  
+*Action | 60 ft | 1 min (conc.)*  
+Un objeto de metal arde: **2d8 fire** cada turno con tu bonus action. CON save o lo suelta.
+
+**HOLD PERSON**  
+*Action | 60 ft | 1 min (conc.)*  
+Un Humanoid hace WIS save o queda *paralyzed*. Repite el save cada turno.
+
+**LESSER RESTORATION**  
+*Action | Touch | Instant*  
+Quitás una enfermedad o *blinded*, *deafened*, *paralyzed* o *poisoned*.
+
+**LOCATE ANIMALS OR PLANTS**  
+*Action (ritual) | Self | Instant*  
+Sentís dirección y distancia del animal o planta que busques a 5 millas.
+
+**LOCATE OBJECT**  
+*Action | Self | 10 min (conc.)*  
+Sentís la dirección de un objeto a menos de 1000 ft.
+
+**MOONBEAM**  
+*Action | 120 ft | 1 min (conc.)*  
+Columna de luz de 5 ft de radio: CON save o **2d10 radiant**. Podés moverla con tu Action.
+
+**PASS WITHOUT TRACE**  
+*Action | Self | 1 hora (conc.)*  
+Vos y los aliados a 30 ft: **+10 a Stealth** y sin rastro.
+
+**PROTECTION FROM POISON**  
+*Action | Touch | 1 hora*  
+Neutralizás un veneno. Advantage en saves contra veneno y **resistance** a poison.
+
+**SPIKE GROWTH**  
+*Action | 150 ft | 10 min (conc.)*  
+Área de 20 ft de radio: **2d4 piercing** por cada 5 ft que se muevan. Casi invisible.
+}}
+
+{{pageNumber,auto}}
+
+\page
+
+### Level 3 Spells
+
+{{spells-grid
+**CREATE FOOD AND WATER** ✓ PREPARED (Circle)  
+*Action | 30 ft | Instant*  
+Comida y agua para 15 humanoides o 5 steeds por un día.
+
+**PROTECTION FROM ENERGY** ✓ PREPARED (Circle)  
+*Action | Touch | 1 hora (conc.)*  
+Un aliado gana **resistance** a acid, cold, fire, lightning o thunder.
+
+**CALL LIGHTNING**  
+*Action | 120 ft | 10 min (conc.)*  
+Nube de tormenta: cada turno, con tu Action, un rayo de **3d10 lightning** (DEX save para la mitad). +1d10 si es al aire libre y hay tormenta.
+
+**CONJURE ANIMALS**  
+*Action | 60 ft | 1 hora (conc.)*  
+Invocás espíritus feéricos con forma de bestias: una de CR 2, dos de CR 1, cuatro de CR 1/2 u ocho de CR 1/4. Obedecen tus órdenes.
+
+**DAYLIGHT**  
+*Action | 60 ft | 1 hora*  
+Esfera de 60 ft de luz brillante. Disipa oscuridad mágica de 3rd o menos.
+
+**DISPEL MAGIC**  
+*Action | 120 ft | Instant*  
+Termina spells de 3rd o menos. Los de más nivel piden un check de tu spellcasting ability (DC 10 + nivel).
+
+**FEIGN DEATH**  
+*Action (ritual) | Touch | 1 hora*  
+Una criatura voluntaria parece muerta. Resistance a todo el daño menos psychic.
+
+**MELD INTO STONE**  
+*Action (ritual) | Self | 8 horas*  
+Te fundís dentro de una piedra lo bastante grande.
+
+**PLANT GROWTH**  
+*1 action u 8 horas | 150 ft | Instant*  
+Las plantas crecen: terreno difícil (1 action), o cosecha mejor (8 horas).
+
+**SLEET STORM**  
+*Action | 150 ft | 1 min (conc.)*  
+Cilindro de 40 ft: terreno difícil, *heavily obscured*, apaga fuegos. DEX save o *prone*. Los saves de concentration tienen disadvantage.
+
+**SPEAK WITH PLANTS**  
+*Action | Self (30 ft) | 10 min*  
+Hablás con las plantas y las movés de forma limitada.
+
+**WATER BREATHING**  
+*Action (ritual) | 30 ft | 24 horas*  
+Hasta 10 criaturas respiran bajo el agua.
+
+**WATER WALK**  
+*Action (ritual) | 30 ft | 1 hora*  
+Hasta 10 criaturas caminan sobre líquidos.
+
+**WIND WALL**  
+*Action | 120 ft | 1 min (conc.)*  
+Muro de viento de 50 ft: **3d8 bludgeoning** (STR save para la mitad). Frena proyectiles y gases.
+}}
+
+{{pageNumber,auto}}
+
+\page
+
+## CHAPTER 4 — HOMEBREW
+
+### Resurrection Rules
+
+Para que la resurrección sea posible, el cuerpo tiene que ser reconocible y los órganos vitales intactos. Un cuerpo incinerado o desmembrado no sirve. La ventana de tiempo es extremadamente breve: **un minuto** desde la muerte. Pasado ese tiempo, el alma se pierde.
+:
+El hechizo básico para esto es Revivify (nv 3). El personaje fallecido tira el **Saving Throw Final de Vida o Muerte**. El DC sube según las muertes previas:
+*   1ª muerte: **DC 5**
+*   2ª muerte: **DC 10**
+*   3ª muerte: **DC 15**
+*   4ª muerte: **DC 20**
+*   5ª muerte: **Definitiva.** No hay tirada.
+
+**El precio de la magia.** Ningún ritual sale gratis. Arrancar un alma cuesta energía. El caster sufre reducción **permanente** de HP máximo (1d6), no curable con descansos.
+*   **Revivify (nv 3):** caster recibe 1d6 completo de daño permanente.
+:
+*   **Raise Dead / Reincarnate (nv 5):** caster recibe la mitad del 1d6 (redondeado arriba).
+:
+*   **Resurrection (nv 7):** caster elige entre recibir la mitad del daño **o** darle advantage al Saving Throw Final del fallecido.
+:
+*   **True Resurrection / Wish (nv 9):** caster recibe **ambos** beneficios.
+
+{{watercolor5,top:50px,rotation:90%,left:-150px,width:1000px,background-color:#BBAD82,opacity:60%}}
+
+{{pageNumber,auto}}
+
+<!-- IMAGEN PÁG. 7: acá va el bloque imageMaskEdge2 de cierre (misma posición que la última página del dossier de Dieter) -->
